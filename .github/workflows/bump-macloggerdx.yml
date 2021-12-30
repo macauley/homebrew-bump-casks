@@ -5,10 +5,9 @@ on:
 
 jobs:
   bump:
-    name: Update MacLoggerDX Homebrew cask
     runs-on: macos-latest
     steps:
-      - uses: macauley/action-homebrew-bump-cask
+    - uses: macauley/action-homebrew-bump-cask
       with:
         # Required, custom GitHub access token with only the 'public_repo' scope enabled
         token: ${{secrets.BUMP_CASK_TOKEN}}
