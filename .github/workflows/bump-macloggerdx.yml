@@ -17,3 +17,4 @@ jobs:
         # Bump only these casks if outdated
         cask: maxloggerdx
         livecheck: true
+        dryrun: true
