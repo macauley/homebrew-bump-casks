@@ -14,6 +14,6 @@ jobs:
         # Bump all outdated casks in this tap
         tap: Homebrew/homebrew-cask
         # Bump only these casks if outdated
-        cask: maxloggerdx
+        cask: macloggerdx
         livecheck: true
         dryrun: true
