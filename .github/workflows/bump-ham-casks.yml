@@ -19,7 +19,7 @@ jobs:
         # Bump only these casks if outdated
         cask: macloggerdx, wsjtx, jt-bridge, remotehamradio, qth, gridtracker
         livecheck: true
-        dryrun: true
+        dryrun: false
   bump-casks-versions:
     runs-on: macos-latest
     steps:
