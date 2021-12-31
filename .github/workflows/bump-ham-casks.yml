@@ -32,4 +32,4 @@ jobs:
         # Bump only these casks if outdated
         cask: macloggerdx-beta
         livecheck: true
-        dryrun: true
+        dryrun: false
