@@ -17,7 +17,7 @@ jobs:
         # Bump all outdated casks in this tap
         tap: Homebrew/homebrew-cask
         # Bump only these casks if outdated
-        cask: macloggerdx, wsjtx, jt-bridge, remotehamradio, qth, gridtracker, music-bar
+        cask: macloggerdx, wsjtx, jt-bridge, remotehamradio, qth, gridtracker, music-bar, tqsl
         livecheck: true
         dryrun: false
   bump-casks-versions:
